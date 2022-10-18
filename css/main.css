@@ -1,0 +1,124 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'Inter', sans-serif;
+     color: white;
+}
+
+body{
+     background-color: #333333;
+}
+
+.Head_content{
+     height: 300px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     background-color:#1a1a1a ;
+     border-bottom: 4px solid #5e60ce;
+}
+
+.Head_content h1{
+     text-transform: uppercase;
+     padding-top: 1rem;
+}
+
+.Head_content ul{
+     width: 100%;
+     display: flex;
+     justify-content: space-evenly;
+     flex-direction: row;
+}
+
+.Head_content nav ul li{
+     list-style: none;
+     margin-top: 1rem;
+
+}
+
+.Head_content nav ul li a{
+     text-decoration: none;
+     margin-right: 2rem;
+     font-size: 20px;
+
+}
+
+.title{
+     text-align: center;
+     text-transform: uppercase;
+     margin: 4rem;
+}
+
+header time{
+     color: #5e60ce;
+}
+
+.Sport_content{
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+}
+
+.Sport_content h2{
+
+}
+
+.content_article{
+     width: 31%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     margin: 1rem;
+}
+
+.content_article img{
+     align-items: center;
+     width: 90%;
+     height: 100%;
+     margin-bottom: 1rem;
+}
+
+.content_article header{
+     margin-bottom: 1rem;
+}
+
+.content_context h3{
+     display: flex;
+     text-transform: uppercase;
+     text-align: center;
+     margin-bottom: 1rem;
+}
+
+.content_context p{
+     text-align: center;
+     text-indent: 40px;
+     width: 80%;
+    padding-top: 1rem;
+}
+
+footer{
+     background-color: #1a1a1a;
+     border-top: 2px solid #5e60ce;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     padding: 1rem;
+}
+
+footer p{
+      text-transform: uppercase;
+}
+
+footer div {
+     padding: 1rem;
+}
+
+footer div a{
+     text-decoration: none;
+     padding: 0.5rem;
+}
