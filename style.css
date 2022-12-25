@@ -1,0 +1,100 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+}
+
+body{
+     background-color:#cbd5e1 ;
+}
+
+div{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     padding-top: 2rem;
+}
+
+ h1 {
+     font-size: 2rem;
+     text-align: center;
+     font-weight: 700;
+}
+
+ img{
+     width: 200px;
+     height: 200px;
+}
+
+ input {
+     width: 450px;
+     height: 50px;
+     border: none;
+     border-radius: 8px;
+     background-color: #334155;
+     font-size: 1rem;
+     color: #d1d5db;
+     text-align: center;
+     text-transform: uppercase;
+     outline: 0;
+     margin: 2rem 0;
+}
+
+ input:focus{
+     border: 3px solid #a3e635 ;
+}
+
+ input::placeholder{
+     color: #d1d5db;
+     text-align: center;
+     font-size: 1rem;
+     text-transform: uppercase;
+}
+
+ ul {
+     display: flex;
+     justify-content:center;
+     align-items: center;
+     flex-direction: column;
+     list-style: none;
+
+}
+
+ li{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
+     text-transform: uppercase;
+     font-weight: 400;
+     font-size: 1.5rem;
+     padding-right: 1rem;
+     background-color: #64748b;
+     border-radius: 8px;
+     width: 450px;
+     height: 40px;
+     margin-bottom: 1rem;
+     position: relative;
+}
+
+ul .fa-check, .fa-trash{
+     position: absolute;
+     cursor: pointer;
+}
+
+ul .fa-check{
+     right: 40px;
+     color:#065f46 ;
+}
+
+ul .fa-trash{
+     right: 15px;
+     color: #ff0033 ;
+}
+
+.Check{
+     background-color: #a3e635;
+     text-decoration: line-through;
+}
