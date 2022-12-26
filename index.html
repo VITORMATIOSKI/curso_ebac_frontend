@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+
+     <link rel="preconnect" href="https://fonts.googleapis.com"/>
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+
+     <title>Formulario com validação JQuery</title>
+</head>
+<body>
+     <section id="contato">
+          <div class="container">
+               <h2>Entre em Contato</h2>
+               <form id="form">
+                    <div class="form_campo">
+                         <label for="nome">Nome Completo:</label>
+                         <input type="text" name="nome" id="name" placeholder="Nome Completo">
+                    </div>
+                    <div class="form_campo">
+                         <label for="email">E-mail:</label>
+                         <input type="email" name="email" id="email" placeholder="E-mail">
+                    </div>
+                    <div class="form_campo">
+                         <label for="telefone">Telefone:</label>
+                         <input type="tel" name="telefone" id="fone">
+                    </div>
+                    <div class="form_campo">
+                         <label for="cpf">CPF:</label>
+                         <input type="number" name="cpf" id="cpf">
+                    </div>
+                    <div class="form_campo">
+                         <label for="Endereco">Endereço completo:</label>
+                         <input type="text" name="Endereco" id="Endereco" placeholder="Endereço Completo">
+                    </div>
+                    <div class="form_campo">
+                         <label for="cep">CEP:</label>
+                         <input type="number" name="cep" id="cep">
+                    </div>
+
+                    <button>Enviar</button>
+               </form>
+          </div>
+     </section>
+     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+     <script src="js/jquery.mask.min.js"></script>
+     <script src="js/jquery.validate.min.js"></script>
+     <script src="js/messages_pt_BR.min.js"></script>
+     <script src="js/app.js"></script>
+</body>
+</html>
